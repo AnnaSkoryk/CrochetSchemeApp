@@ -1,0 +1,17 @@
+C:\Users\annas\Desktop\practice\CrochetSchemeApp\CrochetSchemeApp\bin\Debug\net9.0-windows\CrochetSchemeApp.exe
+C:\Users\annas\Desktop\practice\CrochetSchemeApp\CrochetSchemeApp\bin\Debug\net9.0-windows\CrochetSchemeApp.deps.json
+C:\Users\annas\Desktop\practice\CrochetSchemeApp\CrochetSchemeApp\bin\Debug\net9.0-windows\CrochetSchemeApp.runtimeconfig.json
+C:\Users\annas\Desktop\practice\CrochetSchemeApp\CrochetSchemeApp\bin\Debug\net9.0-windows\CrochetSchemeApp.dll
+C:\Users\annas\Desktop\practice\CrochetSchemeApp\CrochetSchemeApp\bin\Debug\net9.0-windows\CrochetSchemeApp.pdb
+C:\Users\annas\Desktop\practice\CrochetSchemeApp\CrochetSchemeApp\obj\Debug\net9.0-windows\CrochetSchemeApp.csproj.GenerateResource.cache
+C:\Users\annas\Desktop\practice\CrochetSchemeApp\CrochetSchemeApp\obj\Debug\net9.0-windows\CrochetSchemeApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\annas\Desktop\practice\CrochetSchemeApp\CrochetSchemeApp\obj\Debug\net9.0-windows\CrochetSchemeApp.AssemblyInfoInputs.cache
+C:\Users\annas\Desktop\practice\CrochetSchemeApp\CrochetSchemeApp\obj\Debug\net9.0-windows\CrochetSchemeApp.AssemblyInfo.cs
+C:\Users\annas\Desktop\practice\CrochetSchemeApp\CrochetSchemeApp\obj\Debug\net9.0-windows\CrochetSchemeApp.csproj.CoreCompileInputs.cache
+C:\Users\annas\Desktop\practice\CrochetSchemeApp\CrochetSchemeApp\obj\Debug\net9.0-windows\CrochetSchemeApp.dll
+C:\Users\annas\Desktop\practice\CrochetSchemeApp\CrochetSchemeApp\obj\Debug\net9.0-windows\refint\CrochetSchemeApp.dll
+C:\Users\annas\Desktop\practice\CrochetSchemeApp\CrochetSchemeApp\obj\Debug\net9.0-windows\CrochetSchemeApp.pdb
+C:\Users\annas\Desktop\practice\CrochetSchemeApp\CrochetSchemeApp\obj\Debug\net9.0-windows\CrochetSchemeApp.genruntimeconfig.cache
+C:\Users\annas\Desktop\practice\CrochetSchemeApp\CrochetSchemeApp\obj\Debug\net9.0-windows\ref\CrochetSchemeApp.dll
+C:\Users\annas\Desktop\practice\CrochetSchemeApp\CrochetSchemeApp\obj\Debug\net9.0-windows\CrochetSchemeApp.MainWindow.resources
+C:\Users\annas\Desktop\practice\CrochetSchemeApp\CrochetSchemeApp\obj\Debug\net9.0-windows\CrochetSchemeApp.Properties.Resources.resources
