@@ -1,0 +1,100 @@
+﻿## Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]ogs/
+
+## Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider / JetBrains
+.idea/
+*.iml
+
+## VS Code
+.vscode/
+
+## Generated files
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+*.vspscc
+*.vssscc
+
+## NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+# Uncomment below if you use package restore
+# !packages/build/
+
+## Publish folders
+publish/
+wwwroot/
+
+## Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+
+## Test results
+TestResult*/
+*.trx
+*.coverage
+*.coveragexml
+
+## Other
+*.dbmdl
+*.dbproj.schemaview
+*.sqlproj
+*.jfm
+_ReSharper*/
+*_ReSharper.*
+*.DotSettings.user
+*.ipch
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+*.psess
+*.vsp
+*.vspx
+*.pidb
+*.userprefs
+
+## Windows-specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## Backup & Archive
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+## Auto-generated resources
+*.g.cs
+*.designer.cs
+*.Generated.cs
+
+## Local secrets / configs
+appsettings.Development.json
+secrets.json
+.env
+.env.*

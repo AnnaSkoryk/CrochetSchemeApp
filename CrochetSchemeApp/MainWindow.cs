@@ -1,3 +1,10 @@
+using System;
+using System.Collections.Generic;
+using System.Diagnostics.Metrics;
+using System.Drawing;
+using System.Reflection;
+using System.Runtime.InteropServices;
+
 namespace CrochetSchemeApp
 {
     public partial class MainWindow : Form
@@ -19,25 +26,43 @@ namespace CrochetSchemeApp
 
         private void convertBtn_Click(object sender, EventArgs e)
         {
-            Bitmap bitmapImg = new Bitmap(originalPicture.Image);
-
-            //Draw grid
-            using (Graphics g = Graphics.FromImage(bitmapImg))
+            if ((twoColorsCheckBox.Checked || threeColorsCheckBox.Checked || fourColorsCheckBox.Checked) && originalPicture.Image is not null)
             {
-                int step = 15;
-                Pen pen = new Pen(Color.White, 1);
+                Bitmap bitmapImg = new Bitmap(originalPicture.Image);
+                GraphicController.SetAvarageColors(bitmapImg);
+                Bitmap imgWithGrid = GraphicController.InsertGrid(bitmapImg);
 
-                for (int x = 0; x < bitmapImg.Width; x += step)
-                {
-                    g.DrawLine(pen, x, 0, x, bitmapImg.Height);
-                }
-                for (int y = 0; y < bitmapImg.Height; y += step)
-                {
-                    g.DrawLine(pen, 0, y, bitmapImg.Width, y);
-                }
+                schemeImg.Image = imgWithGrid;
             }
+        }
 
-            schemeImg.Image = bitmapImg;
+        private void twoColorsCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (twoColorsCheckBox.Checked) {
+                threeColorsCheckBox.Checked = false;
+                fourColorsCheckBox.Checked = false;
+                GraphicController.numberOfColorsInUse = 2;
+            }
+        }
+
+        private void threeColorsCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (threeColorsCheckBox.Checked)
+            {
+                twoColorsCheckBox.Checked = false;
+                fourColorsCheckBox.Checked = false;
+                GraphicController.numberOfColorsInUse = 3;
+            }
+        }
+
+        private void fourColorsCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (fourColorsCheckBox.Checked)
+            {
+                twoColorsCheckBox.Checked = false;
+                threeColorsCheckBox.Checked = false;
+                GraphicController.numberOfColorsInUse = 3;
+            }
         }
     }
 }

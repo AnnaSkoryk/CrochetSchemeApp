@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\annas\\Desktop\\practice\\CrochetSchemeApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D73D045-5A90-442B-A135-64E6EAA02BC0}|CrochetSchemeApp\\CrochetSchemeApp.csproj|c:\\users\\annas\\desktop\\practice\\crochetschemeapp\\crochetschemeapp\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D73D045-5A90-442B-A135-64E6EAA02BC0}|CrochetSchemeApp\\CrochetSchemeApp.csproj|solutionrelative:crochetschemeapp\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D73D045-5A90-442B-A135-64E6EAA02BC0}|CrochetSchemeApp\\CrochetSchemeApp.csproj|c:\\users\\annas\\desktop\\practice\\crochetschemeapp\\crochetschemeapp\\graphiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D73D045-5A90-442B-A135-64E6EAA02BC0}|CrochetSchemeApp\\CrochetSchemeApp.csproj|solutionrelative:crochetschemeapp\\graphiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D73D045-5A90-442B-A135-64E6EAA02BC0}|CrochetSchemeApp\\CrochetSchemeApp.csproj|c:\\users\\annas\\desktop\\practice\\crochetschemeapp\\crochetschemeapp\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5D73D045-5A90-442B-A135-64E6EAA02BC0}|CrochetSchemeApp\\CrochetSchemeApp.csproj|c:\\users\\annas\\desktop\\practice\\crochetschemeapp\\crochetschemeapp\\imgcluster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D73D045-5A90-442B-A135-64E6EAA02BC0}|CrochetSchemeApp\\CrochetSchemeApp.csproj|solutionrelative:crochetschemeapp\\imgcluster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D73D045-5A90-442B-A135-64E6EAA02BC0}|CrochetSchemeApp\\CrochetSchemeApp.csproj|C:\\Users\\annas\\Desktop\\practice\\CrochetSchemeApp\\crochetschemeapp\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5D73D045-5A90-442B-A135-64E6EAA02BC0}|CrochetSchemeApp\\CrochetSchemeApp.csproj|solutionrelative:crochetschemeapp\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -15,8 +19,8 @@
       "RelativeMoniker": "D:0:0:{5D73D045-5A90-442B-A135-64E6EAA02BC0}|CrochetSchemeApp\\CrochetSchemeApp.csproj|solutionrelative:crochetschemeapp\\mainwindow.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D73D045-5A90-442B-A135-64E6EAA02BC0}|CrochetSchemeApp\\CrochetSchemeApp.csproj|c:\\users\\annas\\desktop\\practice\\crochetschemeapp\\crochetschemeapp\\graphiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D73D045-5A90-442B-A135-64E6EAA02BC0}|CrochetSchemeApp\\CrochetSchemeApp.csproj|solutionrelative:crochetschemeapp\\graphiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D73D045-5A90-442B-A135-64E6EAA02BC0}|CrochetSchemeApp\\CrochetSchemeApp.csproj|c:\\users\\annas\\desktop\\practice\\crochetschemeapp\\crochetschemeapp\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D73D045-5A90-442B-A135-64E6EAA02BC0}|CrochetSchemeApp\\CrochetSchemeApp.csproj|solutionrelative:crochetschemeapp\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,54 +30,64 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "MainWindow.cs",
               "DocumentMoniker": "C:\\Users\\annas\\Desktop\\practice\\CrochetSchemeApp\\CrochetSchemeApp\\MainWindow.cs",
               "RelativeDocumentMoniker": "CrochetSchemeApp\\MainWindow.cs",
               "ToolTip": "C:\\Users\\annas\\Desktop\\practice\\CrochetSchemeApp\\CrochetSchemeApp\\MainWindow.cs",
               "RelativeToolTip": "CrochetSchemeApp\\MainWindow.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAiwB0AAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwB8AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-19T16:35:28.748Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ImgCluster.cs",
+              "DocumentMoniker": "C:\\Users\\annas\\Desktop\\practice\\CrochetSchemeApp\\CrochetSchemeApp\\ImgCluster.cs",
+              "RelativeDocumentMoniker": "CrochetSchemeApp\\ImgCluster.cs",
+              "ToolTip": "C:\\Users\\annas\\Desktop\\practice\\CrochetSchemeApp\\CrochetSchemeApp\\ImgCluster.cs",
+              "RelativeToolTip": "CrochetSchemeApp\\ImgCluster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T16:04:27.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GraphicController.cs",
+              "DocumentMoniker": "C:\\Users\\annas\\Desktop\\practice\\CrochetSchemeApp\\CrochetSchemeApp\\GraphicController.cs",
+              "RelativeDocumentMoniker": "CrochetSchemeApp\\GraphicController.cs",
+              "ToolTip": "C:\\Users\\annas\\Desktop\\practice\\CrochetSchemeApp\\CrochetSchemeApp\\GraphicController.cs*",
+              "RelativeToolTip": "CrochetSchemeApp\\GraphicController.cs*",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwD8AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T16:43:50.678Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GraphicController.cs",
-              "DocumentMoniker": "C:\\Users\\annas\\Desktop\\practice\\CrochetSchemeApp\\CrochetSchemeApp\\GraphicController.cs",
-              "RelativeDocumentMoniker": "CrochetSchemeApp\\GraphicController.cs",
-              "ToolTip": "C:\\Users\\annas\\Desktop\\practice\\CrochetSchemeApp\\CrochetSchemeApp\\GraphicController.cs",
-              "RelativeToolTip": "CrochetSchemeApp\\GraphicController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T16:43:50.678Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "MainWindow.Designer.cs",
               "DocumentMoniker": "C:\\Users\\annas\\Desktop\\practice\\CrochetSchemeApp\\CrochetSchemeApp\\MainWindow.Designer.cs",
               "RelativeDocumentMoniker": "CrochetSchemeApp\\MainWindow.Designer.cs",
               "ToolTip": "C:\\Users\\annas\\Desktop\\practice\\CrochetSchemeApp\\CrochetSchemeApp\\MainWindow.Designer.cs",
               "RelativeToolTip": "CrochetSchemeApp\\MainWindow.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAEwI0AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-19T16:35:36.596Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.cs [Design]",
               "DocumentMoniker": "C:\\Users\\annas\\Desktop\\practice\\CrochetSchemeApp\\CrochetSchemeApp\\MainWindow.cs",
               "RelativeDocumentMoniker": "CrochetSchemeApp\\MainWindow.cs",
