@@ -1,13 +1,10 @@
-﻿using static CrochetSchemeApp.ImgCluster;
-
-namespace CrochetSchemeApp
+﻿namespace CrochetSchemeApp
 {
     static public class GraphicController
     {
         public static int step = 20;
         static Color gridColor = Color.White;
         public static int numberOfColorsInUse;
-        
 
         public static Bitmap InsertGrid(Bitmap source)
         {
@@ -53,73 +50,22 @@ namespace CrochetSchemeApp
             return result;
         }
 
-        public static void CreateListOfClusters(Bitmap source)
+        public static List<ImgCluster> CreateListOfClusters(Bitmap source)
         {
             List<ImgCluster> listOfClusters = new List<ImgCluster>();
-            Color avarageColor;
+
+            ImgCluster cluster;
             for (int y = 0; y < source.Height; y += step - 1)
             {
                 for (int x = 0; x < source.Width; x += step - 1)
                 {
-                    avarageColor = GetAverageColorOfClaster(source, x, y);
-                    listOfClusters.Add(new ImgCluster(x, y, avarageColor));
-
-                    SetColorOfCluster(source, x, y, avarageColor);
+                    cluster = new ImgCluster(x, y);
+                    cluster.DefineAverageColorOfClaster(source);
+                    listOfClusters.Add(cluster);
+                    cluster.paintClusterWithColor(source);
                 }
             }
-        }
-
-        public static void SetAvarageColors(Bitmap source)
-        {
-            for (int y = 0; y < source.Height; y += step - 1)
-            {
-                for (int x = 0; x < source.Width; x += step - 1)
-                {
-                    SetColorOfCluster(source, x, y, GetAverageColorOfClaster(source, x, y));
-                }
-            }
-        }
-
-        public static void SetColorsOfAllClusters(Bitmap source, Color color)
-        {
-            for (int y = 0; y < source.Height; y += step - 1)
-            {
-                for (int x = 0; x < source.Width; x += step - 1)
-                {
-                    SetColorOfCluster(source, x, y, color);
-                }
-            }
-        }
-
-        private static Color GetAverageColorOfClaster(Bitmap sourceImg, int startX, int startY)
-        {
-            int r = 0, g = 0, b = 0;
-            int count = 0;
-
-            for (int y = startY; y < startY + step && y < sourceImg.Height; y++)
-            {
-                for (int x = startX; x < startX + step && x < sourceImg.Width; x++)
-                {
-                    Color pixel = sourceImg.GetPixel(x, y);
-                    r += pixel.R;
-                    g += pixel.G;
-                    b += pixel.B;
-                    count++;
-                }
-            }
-
-            return Color.FromArgb(r / count, g / count, b / count);
-        }
-
-        private static void SetColorOfCluster(Bitmap sourceImg, int startX, int startY, Color averageColor)
-        {
-            for (int y = startY; y < startY + step && y < sourceImg.Height; y++)
-            {
-                for (int x = startX; x < startX + step && x < sourceImg.Width; x++)
-                {
-                    sourceImg.SetPixel(x, y, averageColor); 
-                }
-            }
+            return listOfClusters;
         }
     }
 }

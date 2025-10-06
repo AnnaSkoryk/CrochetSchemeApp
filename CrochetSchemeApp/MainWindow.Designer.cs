@@ -46,7 +46,7 @@
             // schemeImg
             // 
             schemeImg.BackColor = SystemColors.ButtonFace;
-            schemeImg.Location = new Point(10, 705);
+            schemeImg.Location = new Point(710, 725);
             schemeImg.Margin = new Padding(10, 10, 10, 40);
             schemeImg.Name = "schemeImg";
             schemeImg.Padding = new Padding(0, 0, 0, 50);
@@ -59,7 +59,7 @@
             // 
             convertBtn.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             convertBtn.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            convertBtn.Location = new Point(10, 624);
+            convertBtn.Location = new Point(710, 644);
             convertBtn.Margin = new Padding(10, 3, 10, 3);
             convertBtn.Name = "convertBtn";
             convertBtn.Size = new Size(1034, 68);
@@ -72,7 +72,7 @@
             // 
             originalPicture.BackColor = SystemColors.ButtonFace;
             originalPicture.Dock = DockStyle.Fill;
-            originalPicture.Location = new Point(10, 84);
+            originalPicture.Location = new Point(710, 104);
             originalPicture.Margin = new Padding(10);
             originalPicture.Name = "originalPicture";
             originalPicture.Size = new Size(1034, 395);
@@ -84,7 +84,7 @@
             // 
             uploadImgBtn.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             uploadImgBtn.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            uploadImgBtn.Location = new Point(10, 3);
+            uploadImgBtn.Location = new Point(710, 23);
             uploadImgBtn.Margin = new Padding(10, 3, 10, 3);
             uploadImgBtn.Name = "uploadImgBtn";
             uploadImgBtn.Size = new Size(1034, 68);
@@ -106,7 +106,8 @@
             flowLayoutPanel1.FlowDirection = FlowDirection.TopDown;
             flowLayoutPanel1.Location = new Point(0, 0);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(1083, 727);
+            flowLayoutPanel1.Padding = new Padding(700, 20, 0, 0);
+            flowLayoutPanel1.Size = new Size(2083, 727);
             flowLayoutPanel1.TabIndex = 4;
             flowLayoutPanel1.WrapContents = false;
             // 
@@ -119,7 +120,7 @@
             chooseColorsPanel.Controls.Add(twoColorsCheckBox);
             chooseColorsPanel.Controls.Add(threeColorsCheckBox);
             chooseColorsPanel.Controls.Add(fourColorsCheckBox);
-            chooseColorsPanel.Location = new Point(10, 499);
+            chooseColorsPanel.Location = new Point(710, 519);
             chooseColorsPanel.Margin = new Padding(10);
             chooseColorsPanel.Name = "chooseColorsPanel";
             chooseColorsPanel.Padding = new Padding(10, 5, 10, 5);
@@ -178,7 +179,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1083, 727);
+            ClientSize = new Size(2083, 727);
             Controls.Add(flowLayoutPanel1);
             Name = "MainWindow";
             Text = "a";

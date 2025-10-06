@@ -1,10 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Diagnostics.Metrics;
-using System.Drawing;
-using System.Reflection;
-using System.Runtime.InteropServices;
-
 namespace CrochetSchemeApp
 {
     public partial class MainWindow : Form
@@ -29,9 +22,8 @@ namespace CrochetSchemeApp
             if ((twoColorsCheckBox.Checked || threeColorsCheckBox.Checked || fourColorsCheckBox.Checked) && originalPicture.Image is not null)
             {
                 Bitmap bitmapImg = new Bitmap(originalPicture.Image);
-                GraphicController.SetAvarageColors(bitmapImg);
+                List<ImgCluster> clusteredImg = GraphicController.CreateListOfClusters(bitmapImg);
                 Bitmap imgWithGrid = GraphicController.InsertGrid(bitmapImg);
-
                 schemeImg.Image = imgWithGrid;
             }
         }
